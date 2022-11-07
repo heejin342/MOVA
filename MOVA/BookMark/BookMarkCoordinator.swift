@@ -19,14 +19,14 @@ class BookMarkCoordinator: Coordinator, BookMarkDelegate {
     }
     
     func start() {
-
+        
     }
     
     func startPush() -> UINavigationController {
         let firstViewController = BookMarkListViewController()
         firstViewController.delegate = self
         firstViewController.view.backgroundColor = .white
-        firstViewController.navigationItem.title = "북마크s"
+        firstViewController.navigationItem.title = "볼거 리스트"
         navigationController.setViewControllers([firstViewController], animated: false)
         return navigationController
     }

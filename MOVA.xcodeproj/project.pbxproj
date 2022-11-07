@@ -23,6 +23,8 @@
 		F08263A5291004DC0080C5AF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263A4291004DC0080C5AF /* Coordinator.swift */; };
 		F08263A7291005780080C5AF /* BookMarkCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263A6291005780080C5AF /* BookMarkCoordinator.swift */; };
 		F08263A929100EBF0080C5AF /* ThridViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263A829100EBF0080C5AF /* ThridViewCoordinator.swift */; };
+		F08263B2291025E40080C5AF /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263B1291025E40080C5AF /* AppAppearance.swift */; };
+		F08263B5291029610080C5AF /* SceneDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263B4291029610080C5AF /* SceneDIContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		F08263A4291004DC0080C5AF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		F08263A6291005780080C5AF /* BookMarkCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkCoordinator.swift; sourceTree = "<group>"; };
 		F08263A829100EBF0080C5AF /* ThridViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThridViewCoordinator.swift; sourceTree = "<group>"; };
+		F08263B1291025E40080C5AF /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+		F08263B4291029610080C5AF /* SceneDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDIContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,10 +141,8 @@
 				F08263B0291020F40080C5AF /* Application */,
 				F08263AF29101FFF0080C5AF /* BookMark */,
 				F08263A0290FFE4C0080C5AF /* TableViewCell.swift */,
-				F0826370290FF98F0080C5AF /* SceneDelegate.swift */,
 				F08263A829100EBF0080C5AF /* ThridViewCoordinator.swift */,
 				F0826379290FF9910080C5AF /* LaunchScreen.storyboard */,
-				F08263A4291004DC0080C5AF /* Coordinator.swift */,
 				F082637C290FF9910080C5AF /* Info.plist */,
 				F0826377290FF9910080C5AF /* Assets.xcassets */,
 			);
@@ -177,9 +179,29 @@
 			isa = PBXGroup;
 			children = (
 				F082636E290FF98F0080C5AF /* AppDelegate.swift */,
+				F08263B1291025E40080C5AF /* AppAppearance.swift */,
+				F0826370290FF98F0080C5AF /* SceneDelegate.swift */,
 				F08263A22910049C0080C5AF /* AppCoordinator.swift */,
+				F08263B3291029370080C5AF /* DIContainer */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		F08263B3291029370080C5AF /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				F08263B4291029610080C5AF /* SceneDIContainer.swift */,
+				F08263B629102B2C0080C5AF /* Protocols */,
+			);
+			path = DIContainer;
+			sourceTree = "<group>";
+		};
+		F08263B629102B2C0080C5AF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F08263A4291004DC0080C5AF /* Coordinator.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		F1E12EEE8F43D3B9CEA4A7EB /* Pods */ = {
@@ -436,6 +458,8 @@
 				F0826373290FF98F0080C5AF /* BookMarkListViewController.swift in Sources */,
 				F08263A1290FFE4C0080C5AF /* TableViewCell.swift in Sources */,
 				F08263A5291004DC0080C5AF /* Coordinator.swift in Sources */,
+				F08263B5291029610080C5AF /* SceneDIContainer.swift in Sources */,
+				F08263B2291025E40080C5AF /* AppAppearance.swift in Sources */,
 				F08263A32910049C0080C5AF /* AppCoordinator.swift in Sources */,
 				F08263A7291005780080C5AF /* BookMarkCoordinator.swift in Sources */,
 				F082636F290FF98F0080C5AF /* AppDelegate.swift in Sources */,

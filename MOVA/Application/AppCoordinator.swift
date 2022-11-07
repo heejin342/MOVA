@@ -11,9 +11,11 @@ import UIKit
 class AppCoordinator: Coordinator {
     var childCoordinators: [Coordinator] = []
     let window: UIWindow?
+    var sceneDIContainer: SceneDIContainer
     
     init(_ window: UIWindow?) {
         self.window = window
+        sceneDIContainer = SceneDIContainer()
         window?.makeKeyAndVisible()
     }
     
@@ -28,14 +30,12 @@ class AppCoordinator: Coordinator {
         let firstItem = UITabBarItem(title: "북마크", image: nil, tag: 0)
         let secondItem = UITabBarItem(title: "미정", image: nil, tag: 1)
 
-        let firstViewCoordinator = BookMarkCoordinator()
-        firstViewCoordinator.parentCoordinator = self
+        let firstViewCoordinator = sceneDIContainer.makeBookMarkCoordinator(parantCoordinator: self)
         childCoordinators.append(firstViewCoordinator)
         let firstViewController = firstViewCoordinator.startPush()
         firstViewController.tabBarItem = firstItem
         
-        let sedcondViewCoordinator = BookMarkCoordinator()
-        sedcondViewCoordinator.parentCoordinator = self
+        let sedcondViewCoordinator = sceneDIContainer.makeBookMarkCoordinator(parantCoordinator: self)
         childCoordinators.append(sedcondViewCoordinator)
         let secondViewController = sedcondViewCoordinator.startPush()
         secondViewController.tabBarItem = secondItem

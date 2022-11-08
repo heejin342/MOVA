@@ -7,80 +7,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "389508BC-46ED-4C60-94D8-7D26E9285C84"
+            uuid = "9B197F69-4E75-44C3-A6D0-54F41C8158E7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MOVA/BookMark/BookMarkCoordinator.swift"
+            filePath = "MOVA/BookMark/BookMarkListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "pushCellVC()"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "bindUI()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F7AD5765-9288-4C54-8F0D-3BD7A0CCA4F5"
+            uuid = "3C274A70-AB65-4360-A14A-99E4A06EEEEB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MOVA/Application/AppCoordinator.swift"
+            filePath = "MOVA/TableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "setTabBarController()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A83FEB33-35F5-4F19-A128-1AE5A7E5768B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MOVA/Application/AppCoordinator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "setTabBarController()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "89592EF7-BA7B-4F57-9EBA-0CFA9DDCC641"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MOVA/BookMark/BookMarkCoordinator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "BookMarkCoordinator"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "TableViewCell"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C8325417-DC5F-4904-A47C-F596195CDA82"
+            uuid = "A85B2EBA-62C3-49D6-81D4-BF469908480C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MOVA/Application/AppCoordinator.swift"
+            filePath = "MOVA/TableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "setTabBarController()"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "selectCell()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

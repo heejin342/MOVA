@@ -26,16 +26,16 @@ class AppCoordinator: Coordinator {
     
     func setTabBarController() -> UITabBarController {
         let tabBarController = UITabBarController()
-        
-        let firstItem = UITabBarItem(title: "북마크", image: nil, tag: 0)
+        tabBarController.selectedIndex = 0
+        let firstItem = UITabBarItem(title: "북마크", image: UIImage(systemName: "bookmark"), selectedImage: UIImage(systemName: "bookmark.fill"))
         let secondItem = UITabBarItem(title: "미정", image: nil, tag: 1)
 
-        let firstViewCoordinator = sceneDIContainer.makeBookMarkCoordinator(parantCoordinator: self)
+        let firstViewCoordinator = sceneDIContainer.makeBookMarkCoordinator(parantCoordinator: self, bookDIContainer: BookDIContainter())
         childCoordinators.append(firstViewCoordinator)
         let firstViewController = firstViewCoordinator.startPush()
         firstViewController.tabBarItem = firstItem
         
-        let sedcondViewCoordinator = sceneDIContainer.makeBookMarkCoordinator(parantCoordinator: self)
+        let sedcondViewCoordinator = sceneDIContainer.makeBookMarkCoordinator(parantCoordinator: self, bookDIContainer: BookDIContainter())
         childCoordinators.append(sedcondViewCoordinator)
         let secondViewController = sedcondViewCoordinator.startPush()
         secondViewController.tabBarItem = secondItem

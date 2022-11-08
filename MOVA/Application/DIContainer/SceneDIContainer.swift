@@ -8,9 +8,10 @@
 import Foundation
 
 final class SceneDIContainer {
-    func makeBookMarkCoordinator(parantCoordinator: Coordinator) -> BookMarkCoordinator {
+    func makeBookMarkCoordinator(parantCoordinator: Coordinator, bookDIContainer: BookDIContainter) -> BookMarkCoordinator {
         let bookMarkVC = BookMarkCoordinator()
         bookMarkVC.parentCoordinator = parantCoordinator
+        bookMarkVC.bookDIContainer = bookDIContainer
         return bookMarkVC
     }
 }

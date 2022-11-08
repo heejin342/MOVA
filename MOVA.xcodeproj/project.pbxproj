@@ -18,13 +18,18 @@
 		F0826386290FF9920080C5AF /* MOVATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0826385290FF9920080C5AF /* MOVATests.swift */; };
 		F0826390290FF9920080C5AF /* MOVAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F082638F290FF9920080C5AF /* MOVAUITests.swift */; };
 		F0826392290FF9920080C5AF /* MOVAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0826391290FF9920080C5AF /* MOVAUITestsLaunchTests.swift */; };
-		F08263A1290FFE4C0080C5AF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263A0290FFE4C0080C5AF /* TableViewCell.swift */; };
+		F08263A1290FFE4C0080C5AF /* BookMarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263A0290FFE4C0080C5AF /* BookMarkTableViewCell.swift */; };
 		F08263A32910049C0080C5AF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263A22910049C0080C5AF /* AppCoordinator.swift */; };
 		F08263A5291004DC0080C5AF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263A4291004DC0080C5AF /* Coordinator.swift */; };
 		F08263A7291005780080C5AF /* BookMarkCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263A6291005780080C5AF /* BookMarkCoordinator.swift */; };
 		F08263A929100EBF0080C5AF /* ThridViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263A829100EBF0080C5AF /* ThridViewCoordinator.swift */; };
 		F08263B2291025E40080C5AF /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263B1291025E40080C5AF /* AppAppearance.swift */; };
 		F08263B5291029610080C5AF /* SceneDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08263B4291029610080C5AF /* SceneDIContainer.swift */; };
+		F0826431291A8F510080C5AF /* BookMarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0826430291A8F510080C5AF /* BookMarkViewModel.swift */; };
+		F0826433291A8F7C0080C5AF /* BookMarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0826432291A8F7C0080C5AF /* BookMarkService.swift */; };
+		F0826435291A8F8F0080C5AF /* BookMarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0826434291A8F8F0080C5AF /* BookMarRepository.swift */; };
+		F0826438291A94A50080C5AF /* BookDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0826437291A94A50080C5AF /* BookDIContainer.swift */; };
+		F082643A291A9EA10080C5AF /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0826439291A9EA10080C5AF /* BookModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,13 +71,18 @@
 		F082638B290FF9920080C5AF /* MOVAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOVAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F082638F290FF9920080C5AF /* MOVAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOVAUITests.swift; sourceTree = "<group>"; };
 		F0826391290FF9920080C5AF /* MOVAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOVAUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F08263A0290FFE4C0080C5AF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F08263A0290FFE4C0080C5AF /* BookMarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTableViewCell.swift; sourceTree = "<group>"; };
 		F08263A22910049C0080C5AF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		F08263A4291004DC0080C5AF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		F08263A6291005780080C5AF /* BookMarkCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkCoordinator.swift; sourceTree = "<group>"; };
 		F08263A829100EBF0080C5AF /* ThridViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThridViewCoordinator.swift; sourceTree = "<group>"; };
 		F08263B1291025E40080C5AF /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
 		F08263B4291029610080C5AF /* SceneDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDIContainer.swift; sourceTree = "<group>"; };
+		F0826430291A8F510080C5AF /* BookMarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkViewModel.swift; sourceTree = "<group>"; };
+		F0826432291A8F7C0080C5AF /* BookMarkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkService.swift; sourceTree = "<group>"; };
+		F0826434291A8F8F0080C5AF /* BookMarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarRepository.swift; sourceTree = "<group>"; };
+		F0826437291A94A50080C5AF /* BookDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDIContainer.swift; sourceTree = "<group>"; };
+		F0826439291A9EA10080C5AF /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +150,6 @@
 			children = (
 				F08263B0291020F40080C5AF /* Application */,
 				F08263AF29101FFF0080C5AF /* BookMark */,
-				F08263A0290FFE4C0080C5AF /* TableViewCell.swift */,
 				F08263A829100EBF0080C5AF /* ThridViewCoordinator.swift */,
 				F0826379290FF9910080C5AF /* LaunchScreen.storyboard */,
 				F082637C290FF9910080C5AF /* Info.plist */,
@@ -169,8 +178,13 @@
 		F08263AF29101FFF0080C5AF /* BookMark */ = {
 			isa = PBXGroup;
 			children = (
+				F0826439291A9EA10080C5AF /* BookModel.swift */,
 				F08263A6291005780080C5AF /* BookMarkCoordinator.swift */,
 				F0826372290FF98F0080C5AF /* BookMarkListViewController.swift */,
+				F08263A0290FFE4C0080C5AF /* BookMarkTableViewCell.swift */,
+				F0826430291A8F510080C5AF /* BookMarkViewModel.swift */,
+				F0826432291A8F7C0080C5AF /* BookMarkService.swift */,
+				F0826434291A8F8F0080C5AF /* BookMarRepository.swift */,
 			);
 			path = BookMark;
 			sourceTree = "<group>";
@@ -192,6 +206,7 @@
 			children = (
 				F08263B4291029610080C5AF /* SceneDIContainer.swift */,
 				F08263B629102B2C0080C5AF /* Protocols */,
+				F0826437291A94A50080C5AF /* BookDIContainer.swift */,
 			);
 			path = DIContainer;
 			sourceTree = "<group>";
@@ -456,15 +471,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0826373290FF98F0080C5AF /* BookMarkListViewController.swift in Sources */,
-				F08263A1290FFE4C0080C5AF /* TableViewCell.swift in Sources */,
+				F08263A1290FFE4C0080C5AF /* BookMarkTableViewCell.swift in Sources */,
 				F08263A5291004DC0080C5AF /* Coordinator.swift in Sources */,
 				F08263B5291029610080C5AF /* SceneDIContainer.swift in Sources */,
 				F08263B2291025E40080C5AF /* AppAppearance.swift in Sources */,
+				F0826435291A8F8F0080C5AF /* BookMarRepository.swift in Sources */,
 				F08263A32910049C0080C5AF /* AppCoordinator.swift in Sources */,
 				F08263A7291005780080C5AF /* BookMarkCoordinator.swift in Sources */,
+				F082643A291A9EA10080C5AF /* BookModel.swift in Sources */,
 				F082636F290FF98F0080C5AF /* AppDelegate.swift in Sources */,
+				F0826438291A94A50080C5AF /* BookDIContainer.swift in Sources */,
 				F0826371290FF98F0080C5AF /* SceneDelegate.swift in Sources */,
 				F08263A929100EBF0080C5AF /* ThridViewCoordinator.swift in Sources */,
+				F0826431291A8F510080C5AF /* BookMarkViewModel.swift in Sources */,
+				F0826433291A8F7C0080C5AF /* BookMarkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
